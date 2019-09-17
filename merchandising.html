@@ -7,7 +7,6 @@
 
 	<title>Rick & Morty</title>
 
-	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -15,19 +14,19 @@
 
 	<div class="container-fluid">
 		<div class="row" >
-			<div  id="cabecera" class="col-md-12">
-				<img style="height: 80px;" src="img/rick-and-morty-banner.jpg">
+			<div  id="cabecera">
+				<img style="height: 100px;" src="img/rick-and-morty-banner.jpg">
 			</div>
 		</div>
 	</div>
 	<a href="index.html"><button class="button">🡐 Volver</button></a>
 
 	<!-- Body, productos -->
-	<h2 style="margin: 3%">Merchandising oficial de Rick y Morty</h2>
-	<div class="row" style="width: 95%;margin-left: 2.5%;">
+	<h2>Merchandising oficial de Rick y Morty</h2>
+	<div class="row">
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/funko.jpg" style="margin-left:20%; width:60%;">
+				<img src="img/merch/funko.jpg" class="merch">
 				<div class="container">
 					<h2>Funko Rick</h2>
 					<p class="title">40€</p>
@@ -37,7 +36,7 @@
 		</div>
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/shirt.jpg" style="margin-left:20%; width:60%;">
+				<img src="img/merch/shirt.jpg" class="merch">
 				<div class="container">
 					<h2>Camiseta</h2>
 					<p class="title">50€</p>
@@ -47,7 +46,7 @@
 		</div>
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/portalgun.jpg" style="margin-left:7%; width:90%;">
+				<img src="img/merch/portalgun.jpg" class="merch">
 				<div class="container">
 					<h2>Portal Gun</h2>
 					<p class="title">120€</p>
@@ -56,12 +55,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="row" style="width: 95%;margin-left: 2.5%;">
+	<div class="row">
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/funko2.jpg" style="margin-left:20%; width:60%;">
+				<img src="img/merch/funko2.jpg" class="merch">
 				<div class="container">
-					<h2>Funko Picke Rick</h2>
+					<h2>Funko Pickle Rick</h2>
 					<p class="title">45€</p>
 					<p><button class="button">Comprar</button></p>
 				</div>
@@ -69,7 +68,7 @@
 		</div>
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/shirt2.jpg" style="margin-left:20%; width:60%;">
+				<img src="img/merch/shirt2.jpg" class="merch">
 				<div class="container">
 					<h2>Camiseta</h2>
 					<p class="title">40€</p>
@@ -79,7 +78,7 @@
 		</div>
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/game.jpg" style="margin-left:20%; width:60%;">
+				<img src="img/merch/game.jpg" class="merch">
 				<div class="container">
 					<h2>Juego</h2>
 					<p class="title">70€</p>
@@ -94,19 +93,12 @@
 
 	<footer>
 		<p>Rick&Morty &copy;
-			<script type="text/javascript">
-				var today = new Date();
-				var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-				var time = today.getHours() + ":" + today.getMinutes();
-				var dateTime = date+' '+time;
-				document.write(dateTime);
-			</script>
+			<?php
+				echo  date("Y/m/d") ." ".  date("H:i:s");
+			?>
+
 		</p> 
 	</footer>
 
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
 </body>
 </html>
