@@ -1,4 +1,7 @@
-
+*{
+  padding: 0px;
+  margin: 0px;
+}
 #cabecera{
 	margin: 0px auto;
   text-align: center;
@@ -11,19 +14,29 @@
 	background: #F6F6F6;
 }
 
-footer {
+#footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
   padding: 0px;
+  margin-top: 35%;
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
 }
 
 
 #navigation{
-  width: 90%;
+  width: 100%;
   margin: 0px auto;
   font-style: black;
+  background-image: linear-gradient(120deg, #50d149, #8ef518, #24f518);
 }
 
 #menuA{
@@ -31,6 +44,12 @@ footer {
  width: 264px;
  height: 50px;
  text-align: center;  
+ text-decoration: none;
+ font-weight: bold;
+}
+
+#menuA:hover{ 
+ text-decoration: underline;
 }
 
 html {
@@ -120,6 +139,7 @@ html {
   display: none;
   background-color: white;
   overflow: hidden;
+  border: 2px solid #eee
 }
 
 .merch{
@@ -127,7 +147,22 @@ html {
   width:60%;
 }
 
-#video{
+video{
   clear: all;
+  float: right;
+  width: 45%;
+  margin-right: 6%;
+}
 
+table,tr{
+  border: 2px solid #eee;
+
+}
+td{
+  border-bottom:2px solid #eee;;
+}
+.imgtabla{
+  width: 40%;
+  margin: none;
+  padding: none;
 }
