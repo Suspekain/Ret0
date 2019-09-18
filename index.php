@@ -4,6 +4,7 @@
 				<meta charset="utf-8">
 				<link rel="stylesheet" type="text/css" href="css/style.css">
 				<title>Rick & Morty	</title>
+				<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 			</head>
 			<body>
 

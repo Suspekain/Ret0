@@ -1,7 +1,9 @@
 *{
   padding: 0px;
   margin: 0px;
+  font-family: 'Roboto', sans-serif;
 }
+
 #cabecera{
 	margin: 0px auto;
   text-align: center;
@@ -12,6 +14,8 @@
 #descripcion{
 	padding-top: 20px;
 	background: #F6F6F6;
+  width: 90%;
+  margin: 2%;
 }
 
 #footer {
@@ -20,7 +24,7 @@
 	width: 100%;
 	text-align: center;
   padding: 0px;
-  margin-top: 35%;
+  margin-top: 27%;
 }
 
 footer{
@@ -151,16 +155,17 @@ video{
   clear: all;
   float: right;
   width: 45%;
-  margin-right: 6%;
+  margin-right: 5%;
 }
 
-table,tr{
+table,tr,h4{
   border: 2px solid #eee;
+  border-bottom:2px solid #eee;
+  margin-left: 50%;
+  width: 45%;
 
 }
-td{
-  border-bottom:2px solid #eee;;
-}
+
 .imgtabla{
   width: 40%;
   margin: none;
