@@ -211,40 +211,42 @@
 			<!-- Actores de doblaje -->
 			<div id="actores" >
 				<h4>Actores de doblaje</h4>
-				<table>
+				<table class="reparto">
 					<tbody style="text-align: center;">
-						<tr>
+						<tr class="reparto">
 							<td>Imagen</td>
 							<td>Personaje</td>
 							<td colspan="2">Actor</td>
 						</tr>
-						<tr>
+						<tr class="reparto">
 							<td><img src="img/rick.jpg"></td>
 							<td>Rick Sanchez</td>
-							<td rowspan="2">Justin Roiland</td>
-							<td rowspan="2"><img class="imgtabla" src="img/justin.jpg"></td>
+							<td rowspan="2"><a href="https://www.imdb.com/name/nm1551598/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank">Justin Roiland</a></td>
+							<td rowspan="2"><a href="https://www.imdb.com/name/nm1551598/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"><img class="imgtabla" src="img/justin.jpg"></a></td>
 						</tr>
-						<tr>
+						<tr class="reparto">
 							<td><img src="img/morty.jpg"></td>
 							<td>Mortimer "Morty" Smith</td>
 						</tr>
-						<tr>
+						<tr class="reparto">
 							<td><img src="img/summer.jpg"></td>
 							<td>Summer Smith</td>
-							<td>Spencer Grammer</td>
-							<td><img class="imgtabla" src="img/spencer.jpg"></td></td>
+							<td><a href="https://www.imdb.com/name/nm0334561/?ref_=nv_sr_1?ref_=nv_sr_1"target="_blank">Spencer Grammer</a></td>
+							<td><a href="https://www.imdb.com/name/nm0334561/?ref_=nv_sr_1?ref_=nv_sr_1"target="_blank"><img class="imgtabla" src="img/spencer.jpg"></a></td>
+
 						</tr>
-						<tr>
+						<tr class="reparto">
 							<td><img src="img/beth.jpg"></td>
 							<td>Beth Sanchez Smith</td>
-							<td>Sarah Chalke</td>
-							<td><img class="imgtabla" src="img/sarah.jpg"></td></td>
+							<td><a href="https://www.imdb.com/name/nm0149950/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank" > Sarah Chalke</a></td>
+							<td><a href="https://www.imdb.com/name/nm0149950/?ref_=nv_sr_1?ref_=nv_sr_1"target="_blank"><img class="imgtabla" src="img/sarah.jpg"></a></td>
+
 						</tr>
-						<tr>
+						<tr class="reparto">
 							<td><img src="img/jerry.jpg"></td>
 							<td>Jerry Smith</td>
-							<td>Chris Parnell</td>
-							<td><img class="imgtabla" src="img/chris.jpg"></td></td>
+							<td><a href="https://www.imdb.com/name/nm0663177/?ref_=fn_al_nm_1" target="_blank">Chris Parnell</a></td>
+							<td><a href="https://www.imdb.com/name/nm0663177/?ref_=fn_al_nm_1"target="_blank"><img class="imgtabla"src="img/chris.jpg"></a></td>
 						</tr>
 					</tbody>
 				</table>
@@ -263,7 +265,10 @@
 				echo "The time is " . date("H:i:s");
 				?>
 
-			</p> 
+			</p>
+			<a href="https://www.adultswim.com/streams/rick-and-morty" target="_blank"><img id="AS" src="img/AS.png"></a>
+			<a href="https://www.imdb.com/title/tt2861424/" target="_blank"><img class="foot" src="img/imdb.png"></a>
+			<img class="foot" src="img/Netflix.png">
 		</footer>
 
 
