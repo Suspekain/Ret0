@@ -121,7 +121,7 @@
 					
 							<!-- Menu Desplegable 3 -->
 																
-										<button class="acordeon">Temoprada 3</button>
+										<button class="acordeon">Temporada 3</button>
 										<div class="panel">
 										 	<ol>
 												<li >
