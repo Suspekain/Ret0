@@ -4,24 +4,25 @@
 				<meta charset="utf-8">
 				<link rel="stylesheet" type="text/css" href="css/style.css">
 				<title>Rick & Morty	</title>
+				<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 			</head>
 			<body>
 
 				<div >
 					<div >
 						<div  id="cabecera" >
-							<img src="img/rick-and-morty-banner.jpg">
+							<img src="img/rick-and-morty-banner.jpg" style="width: 100%">
 						</div>
 					</div>
 
 					<nav>
 						<table id="navigation">
 							<tr>
-								<td id="menuA"> <a href="#descripcion">Descripcion</a></td>
-								<td id="menuA"><a href="#temporadas">Temporadas</a></td>
-								<td id="menuA"><a href="#actores">Actores</a></td>
-								<td id="menuA"><a href="#video">Videos</a></td>
-								<td id="menuA"><a href="merchandising.html">Merchandising</td>
+								<td id="menuA"><a id="menuA" href="#descripcion">DESCRIPCION</a></td>
+								<td id="menuA"><a id="menuA" href="#temporadasG">TEMPORADAS</a></td>
+								<td id="menuA"><a id="menuA" href="#actores">ACTORES</a></td>
+								<td id="menuA"><a id="menuA" href="#video">VIDEOS</a></td>
+								<td id="menuA"><a id="menuA" href="merchandising.html" target="_blank">MERCHANDISING</td>
 								</tr>
 							</table>
 						</nav>
@@ -40,6 +41,7 @@
 						</div>
 
 						<div id="temporadasG">
+							<h4 style="margin-left:0%;border: none;">Temporadas</h4>
 							<!-- Menu Desplegable 1 -->
 									<button class="acordeon">Temporada 1</button>
 										<div class="panel">
@@ -115,7 +117,7 @@
 												The Wedding squanchers
 											</li>
 										</ol>
-	</div>
+						</div>
 					
 							<!-- Menu Desplegable 3 -->
 																
@@ -195,7 +197,7 @@
 	  acc[i].addEventListener("click", function() {
 	    this.classList.toggle("active");
 	    var panel = this.nextElementSibling;
-	    if (panel.style.display === "block") {
+	    if (panel.style.display == "block") {
 	      panel.style.display = "none";
 	    } else {
 	      panel.style.display = "block";
@@ -209,40 +211,40 @@
 			<!-- Actores de doblaje -->
 			<div id="actores" >
 				<h4>Actores de doblaje</h4>
-				<table>
+				<table class="reparto">
 					<tbody style="text-align: center;">
-						<tr>
+						<tr class="reparto">
 							<td>Imagen</td>
 							<td>Personaje</td>
 							<td colspan="2">Actor</td>
 						</tr>
-						<tr>
+						<tr class="reparto">
 							<td><img src="img/rick.jpg"></td>
 							<td>Rick Sanchez</td>
 							<td rowspan="2">Justin Roiland</td>
-							<td rowspan="2"><img style="height: 150px" src="img/justin.jpg"></td>
+							<td rowspan="2"><img class="imgtabla" src="img/justin.jpg"></td>
 						</tr>
-						<tr>
+						<tr class="reparto">
 							<td><img src="img/morty.jpg"></td>
 							<td>Mortimer "Morty" Smith</td>
 						</tr>
-						<tr>
+						<tr class="reparto">
 							<td><img src="img/summer.jpg"></td>
 							<td>Summer Smith</td>
 							<td>Spencer Grammer</td>
-							<td><img style="height: 100px" src="img/spencer.jpg"></td></td>
+							<td><img class="imgtabla" src="img/spencer.jpg"></td></td>
 						</tr>
-						<tr>
+						<tr class="reparto">
 							<td><img src="img/beth.jpg"></td>
 							<td>Beth Sanchez Smith</td>
 							<td>Sarah Chalke</td>
-							<td><img style="height: 100px" src="img/sarah.jpg"></td></td>
+							<td><img class="imgtabla" src="img/sarah.jpg"></td></td>
 						</tr>
-						<tr>
-							<td><img src="img/jerry.jpg" width="75" height="86"></td>
+						<tr class="reparto">
+							<td><img src="img/jerry.jpg"></td>
 							<td>Jerry Smith</td>
 							<td>Chris Parnell</td>
-							<td><img style="height: 100px" src="img/chris.jpg"></td></td>
+							<td><img class="imgtabla" src="img/chris.jpg"></td></td>
 						</tr>
 					</tbody>
 				</table>
@@ -250,15 +252,17 @@
 		</div>
 
 
-		<div id="video">
-			<video width="530px" height="300px" controls style="margin-left: 15px" >
+			<video controls id="video">
 				<source src="capituloEspecial.mp4" type="video/mp4">
 			</video>
-		</div>
 
-		<footer>
+		<footer id="footer">
 			<p>Rick&Morty &copy;
-				<?php echo date("Y/m/d") . " " . date("H:i"); ?>
+				<?php
+				echo "Today is " . date("Y/m/d"). “<br>”;
+				echo "The time is " . date("H:i:s");
+				?>
+
 			</p> 
 		</footer>
 

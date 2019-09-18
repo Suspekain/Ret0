@@ -117,8 +117,9 @@ html {
 
 /* Estilos de los acordeones*/ 
 #temporadasG{
-  width: 650px;
+  width: 30%;
   float:left;
+  margin-left: 2%;
 }
 
 .acordeon {
@@ -158,12 +159,11 @@ video{
   margin-right: 5%;
 }
 
-table,tr,h4{
+.reparto,h4{
   border: 2px solid #eee;
   border-bottom:2px solid #eee;
   margin-left: 50%;
   width: 45%;
-
 }
 
 .imgtabla{

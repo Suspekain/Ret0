@@ -41,6 +41,7 @@
 						</div>
 
 						<div id="temporadasG">
+							<h4 style="margin-left:0%;border: none;">Temporadas</h4>
 							<!-- Menu Desplegable 1 -->
 									<button class="acordeon">Temporada 1</button>
 										<div class="panel">
@@ -251,7 +252,7 @@
 		</div>
 
 
-			<video controls >
+			<video controls id="video">
 				<source src="capituloEspecial.mp4" type="video/mp4">
 			</video>
 
