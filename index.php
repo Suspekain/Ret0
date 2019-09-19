@@ -11,18 +11,18 @@
 				<div >
 					<div >
 						<div  id="cabecera" >
-							<img src="img/rick-and-morty-banner.jpg" style="width: 100%">
+							<img alt="banner" src="img/rick-and-morty-banner.jpg" style="width: 100%">
 						</div>
 					</div>
 
 					<nav>
 						<table id="navigation">
 							<tr>
-								<td id="menuA"><a id="menuA" href="#descripcion">DESCRIPCION</a></td>
-								<td id="menuA"><a id="menuA" href="#temporadasG">TEMPORADAS</a></td>
-								<td id="menuA"><a id="menuA" href="#actores">ACTORES</a></td>
-								<td id="menuA"><a id="menuA" href="#video">VIDEOS</a></td>
-								<td id="menuA"><a id="menuA" href="merchandising.php" target="_blank">MERCHANDISING</td>
+								<td id="menuA"><a href="#descripcion">DESCRIPCION</a></td>
+								<td id="menuA"><a href="#temporadasG">TEMPORADAS</a></td>
+								<td id="menuA"><a href="#actores">ACTORES</a></td>
+								<td id="menuA"><a href="#video">VIDEOS</a></td>
+								<td id="menuA"><a href="merchandising.php" target="_blank">MERCHANDISING</a></td>
 								</tr>
 							</table>
 						</nav>
@@ -163,7 +163,7 @@
 							 	<ol>
 									<li>
 										<!-- Script para calcular cuantos dias quedan para que salga la temporada 4 -->
-										<script type="text/javascript">
+										<script>
 										today = new Date();
 										estreno = new Date("Novenber 1, 2019");
 										msPerDay = 24 * 60 * 60 * 1000 ;
@@ -219,34 +219,34 @@
 							<td colspan="2">Actor</td>
 						</tr>
 						<tr class="reparto">
-							<td><img src="img/rick.jpg"></td>
+							<td><img alt="rick" src="img/rick.jpg"></td>
 							<td>Rick Sanchez</td>
 							<td rowspan="2"><a href="https://www.imdb.com/name/nm1551598/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank">Justin Roiland</a></td>
-							<td rowspan="2"><a href="https://www.imdb.com/name/nm1551598/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"><img class="imgtabla" src="img/justin.jpg"></a></td>
+							<td rowspan="2"><a href="https://www.imdb.com/name/nm1551598/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"><img class="imgtabla" alt="Justin Roiland" src="img/justin.jpg"></a></td>
 						</tr>
 						<tr class="reparto">
-							<td><img src="img/morty.jpg"></td>
+							<td><img alt="Morty" src="img/morty.jpg"></td>
 							<td>Mortimer "Morty" Smith</td>
 						</tr>
 						<tr class="reparto">
-							<td><img src="img/summer.jpg"></td>
+							<td><img alt="Summer" src="img/summer.jpg"></td>
 							<td>Summer Smith</td>
-							<td><a href="https://www.imdb.com/name/nm0334561/?ref_=nv_sr_1?ref_=nv_sr_1"target="_blank">Spencer Grammer</a></td>
-							<td><a href="https://www.imdb.com/name/nm0334561/?ref_=nv_sr_1?ref_=nv_sr_1"target="_blank"><img class="imgtabla" src="img/spencer.jpg"></a></td>
+							<td><a href="https://www.imdb.com/name/nm0334561/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank">Spencer Grammer</a></td>
+							<td><a href="https://www.imdb.com/name/nm0334561/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"><img alt="Spencer Grammer" class="imgtabla" src="img/spencer.jpg"></a></td>
 
 						</tr>
 						<tr class="reparto">
-							<td><img src="img/beth.jpg"></td>
+							<td><img alt="Beth" src="img/beth.jpg"></td>
 							<td>Beth Sanchez Smith</td>
-							<td><a href="https://www.imdb.com/name/nm0149950/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank" > Sarah Chalke</a></td>
-							<td><a href="https://www.imdb.com/name/nm0149950/?ref_=nv_sr_1?ref_=nv_sr_1"target="_blank"><img class="imgtabla" src="img/sarah.jpg"></a></td>
+							<td><a href="https://www.imdb.com/name/nm0149950/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank" >Sarah Chalke</a></td>
+							<td><a href="https://www.imdb.com/name/nm0149950/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"><img alt="Sarah Chalke" class="imgtabla" src="img/sarah.jpg"></a></td>
 
 						</tr>
 						<tr class="reparto">
-							<td><img src="img/jerry.jpg"></td>
+							<td><img alt="Jerry" src="img/jerry.jpg"></td>
 							<td>Jerry Smith</td>
 							<td><a href="https://www.imdb.com/name/nm0663177/?ref_=fn_al_nm_1" target="_blank">Chris Parnell</a></td>
-							<td><a href="https://www.imdb.com/name/nm0663177/?ref_=fn_al_nm_1"target="_blank"><img class="imgtabla"src="img/chris.jpg"></a></td>
+							<td><a href="https://www.imdb.com/name/nm0663177/?ref_=fn_al_nm_1" target="_blank"><img alt="Chris Parnell" class="imgtabla"src="img/chris.jpg"></a></td>
 						</tr>
 					</tbody>
 				</table>
@@ -265,9 +265,9 @@
 				?>
 
 			</p>
-			<a href="https://www.adultswim.com/streams/rick-and-morty" target="_blank"><img id="AS" src="img/AS.png"></a>
-			<a href="https://www.imdb.com/title/tt2861424/" target="_blank"><img class="foot" src="img/imdb.png"></a>
-			<img class="foot" src="img/Netflix.png">
+			<a href="https://www.adultswim.com/streams/rick-and-morty" target="_blank"><img alt="Adult Swim" id="AS" src="img/AS.png"></a>
+			<a href="https://www.imdb.com/title/tt2861424/" target="_blank"><img alt="IMDB" class="foot" src="img/imdb.png"></a>
+			<img alt="Netflix" class="foot" src="img/Netflix.png">
 		</footer>
 
 
