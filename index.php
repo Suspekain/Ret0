@@ -5,6 +5,7 @@
 				<link rel="stylesheet" type="text/css" href="css/style.css">
 				<title>Rick & Morty	</title>
 				<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+				<link rel="icon" type="image/png" href="img/merch/favicon.jpg" alt="favicon">
 			</head>
 			<body>
 
