@@ -93,13 +93,9 @@
 
 	<footer>
 		<p>Rick&Morty &copy;
-			<script type="text/javascript">
-				var today = new Date();
-				var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-				var time = today.getHours() + ":" + today.getMinutes();
-				var dateTime = date+' '+time;
-				document.write(dateTime);
-			</script>
+			<?php
+				echo date("Y/m/d"). date("H:i:s");
+			?>
 		</p> 
 	</footer>
 </body>
