@@ -18,11 +18,11 @@
 					<nav>
 						<table id="navigation">
 							<tr>
-								<td id="menuA"><a href="#descripcion">DESCRIPCION</a></td>
-								<td id="menuA"><a href="#temporadasG">TEMPORADAS</a></td>
-								<td id="menuA"><a href="#actores">ACTORES</a></td>
-								<td id="menuA"><a href="#video">VIDEOS</a></td>
-								<td id="menuA"><a href="merchandising.php" target="_blank">MERCHANDISING</a></td>
+								<td class="menuA"><a href="#descripcion">DESCRIPCION</a></td>
+								<td class="menuA"><a href="#temporadasG">TEMPORADAS</a></td>
+								<td class="menuA"><a href="#actores">ACTORES</a></td>
+								<td class="menuA"><a href="#video">VIDEOS</a></td>
+								<td class="menuA"><a href="merchandising.php" target="_blank">MERCHANDISING</a></td>
 								</tr>
 							</table>
 						</nav>
@@ -80,7 +80,7 @@
 													Ricksy Business
 												</li>
 											</ol>
-										</div>									
+										</div>
 
 							<!-- Menu Desplegable 2 -->
 								<button class="acordeon">Temporada 2</button>
@@ -118,9 +118,9 @@
 											</li>
 										</ol>
 	</div>
-					
+
 							<!-- Menu Desplegable 3 -->
-																
+
 										<button class="acordeon">Temporada 3</button>
 										<div class="panel">
 										 	<ol>
@@ -246,7 +246,7 @@
 							<td><img alt="Jerry" src="img/jerry.jpg"></td>
 							<td>Jerry Smith</td>
 							<td><a href="https://www.imdb.com/name/nm0663177/?ref_=fn_al_nm_1" target="_blank">Chris Parnell</a></td>
-							<td><a href="https://www.imdb.com/name/nm0663177/?ref_=fn_al_nm_1" target="_blank"><img alt="Chris Parnell" class="imgtabla"src="img/chris.jpg"></a></td>
+							<td><a href="https://www.imdb.com/name/nm0663177/?ref_=fn_al_nm_1" target="_blank"><img alt="Chris Parnell" class="imgtabla" src="img/chris.jpg"></a></td>
 						</tr>
 					</tbody>
 				</table>
@@ -268,6 +268,10 @@
 			<a href="https://www.adultswim.com/streams/rick-and-morty" target="_blank"><img alt="Adult Swim" id="AS" src="img/AS.png"></a>
 			<a href="https://www.imdb.com/title/tt2861424/" target="_blank"><img alt="IMDB" class="foot" src="img/imdb.png"></a>
 			<img alt="Netflix" class="foot" src="img/Netflix.png">
+			<div class="certificados">
+				<img style="height: 50px" src="img/html5.png" alt="HTML5 validator">
+				<img style="height: 50px" src="img/css3.png" alt="CSS3 validator">
+			</div>
 		</footer>
 
 
