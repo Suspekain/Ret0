@@ -15,12 +15,12 @@
 
 	<div class="container-fluid">
 		<div class="row" >
-			<div  id="cabecera" class="col-md-12">
+			<div  id="cabecera">
 				<img style="height: 80px;" src="img/rick-and-morty-banner.jpg">
 			</div>
 		</div>
 	</div>
-	<a href="index.php"><button class="button">🡐 Volver</button></a>
+	<a href="index.php"><button class="volver">🡐 Volver</button></a>
 
 	<!-- Body, productos -->
 	<h2 style="margin: 3%">Merchandising oficial de Rick y Morty</h2>
@@ -61,7 +61,7 @@
 			<div class="card">
 				<img src="img/merch/funko2.jpg" class="merch">
 				<div class="container">
-					<h2>Funko Picke Rick</h2>
+					<h2>Funko Pickle Rick</h2>
 					<p class="title">45€</p>
 					<p><button class="button">Comprar</button></p>
 				</div>
@@ -89,7 +89,7 @@
 		</div>
 	</div>
 	
-	<a href="index.php"><button class="button">🡐 Volver</button></a>
+	<a href="index.php"><button class="volver">🡐 Volver</button></a>
 
 
 	<footer>

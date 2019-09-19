@@ -259,10 +259,9 @@
 			</video>
 
 		<footer id="footer">
-			<p>Rick&Morty &copy;
+			<p>Rick & Morty &copy;
 				<?php
-				echo "Today is " . date("Y/m/d"). “<br>”;
-				echo "The time is " . date("H:i:s");
+				echo date("Y/m/d"). date("H:i:s");
 				?>
 
 			</p>
