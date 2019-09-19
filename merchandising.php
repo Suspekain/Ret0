@@ -16,7 +16,7 @@
 	<div class="container-fluid">
 		<div class="row" >
 			<div  id="cabecera">
-				<img style="height: 80px;" src="img/rick-and-morty-banner.jpg">
+				<img style="height: 80px;" alt="banner" src="img/rick-and-morty-banner.jpg">
 			</div>
 		</div>
 	</div>
@@ -27,7 +27,7 @@
 	<div class="row" style="width: 95%;margin-left: 2.5%;">
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/funko.jpg"  class="merch">
+				<img alt="funkoRick" src="img/merch/funko.jpg"  class="merch">
 				<div class="container">
 					<h2>Funko Rick</h2>
 					<p class="title">40€</p>
@@ -37,7 +37,7 @@
 		</div>
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/shirt.jpg" class="merch">
+				<img alt="Camiseta" src="img/merch/shirt.jpg" class="merch">
 				<div class="container">
 					<h2>Camiseta</h2>
 					<p class="title">50€</p>
@@ -47,7 +47,7 @@
 		</div>
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/portalgun.jpg" class="merch">
+				<img alt="PortalGun" src="img/merch/portalgun.jpg" class="merch">
 				<div class="container">
 					<h2>Portal Gun</h2>
 					<p class="title">120€</p>
@@ -59,7 +59,7 @@
 	<div class="row" style="width: 95%;margin-left: 2.5%;">
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/funko2.jpg" class="merch">
+				<img alt="FunkoPickleRick" src="img/merch/funko2.jpg" class="merch">
 				<div class="container">
 					<h2>Funko Pickle Rick</h2>
 					<p class="title">45€</p>
@@ -69,7 +69,7 @@
 		</div>
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/shirt2.jpg" class="merch">
+				<img alt="CamisetaRick" src="img/merch/shirt2.jpg" class="merch">
 				<div class="container">
 					<h2>Camiseta</h2>
 					<p class="title">40€</p>
@@ -79,7 +79,7 @@
 		</div>
 		<div class="column">
 			<div class="card">
-				<img src="img/merch/game.jpg" class="merch">
+				<img alt="Juego" src="img/merch/game.jpg" class="merch">
 				<div class="container">
 					<h2>Juego</h2>
 					<p class="title">70€</p>
@@ -103,10 +103,5 @@
 			</script>
 		</p> 
 	</footer>
-
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
 </body>
 </html>
