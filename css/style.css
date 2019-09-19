@@ -41,7 +41,6 @@ footer{
 #navigation{
   width: 100%;
   margin: 0px auto;
-  font-style: black;
   background-image: linear-gradient(120deg, #50d149, #8ef518, #32a852);
 }
 
@@ -132,7 +131,7 @@ html {
   transition: 0.5s;
 }
 .volver:hover {
-  background-color: #333;
+  background-color: #444;
 }
 
 /* Estilos de los acordeones*/ 
@@ -173,7 +172,6 @@ html {
 }
 
 video{
-  clear: all;
   float: right;
   width: 45%;
   margin-right: 5%;
@@ -188,8 +186,8 @@ video{
 
 .imgtabla{
   width: 40%;
-  margin: none;
-  padding: none;
+  margin: 0px;
+  padding: 0px;
 }
 a{
   color: black;
